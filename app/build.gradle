@@ -1,0 +1,20 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'net.minimaltvlite.launcher'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'net.minimaltvlite.launcher'
+        minSdk 19
+        targetSdk 19
+        versionCode 1
+        versionName '0.1.0'
+    }
+    buildTypes {
+        release { minifyEnabled false }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
